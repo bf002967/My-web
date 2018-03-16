@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="翁梁科的个人简历">
+	<link rel="stylesheet" href="css/reset.css" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/component.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<title>Viken的简历</title>
+</head>
+<body>
+	<!-- 导航栏 -->
+  <div id='header' style='opacity:.3'></div>
+  <header>
+
+	<div id="logo">
+		<div id="header_img"><a href="https://github.com/bf002967/"><img src="images/logo.jpg" alt="" /></a></div>
+		<div id="hp">
+		<div id="header_p" class="hp1">
+			<p id="header_p1">F2E</p>
+			<p id="header_p2">个人简历</p>
+		</div>
+		<div id="header_p" class="hp2" style='display: none'>
+			<p id="header_p1">Resume</p>
+			<p id="header_p2">前端工程师</p>
+		</div>
+	    </div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li class="unfinished"><a href="#">随笔</a></li>
+			<li class="unfinished"><a href="#">相册</a></li>
+			<li class="unfinished"><a href="#">关于</a></li>
+		</ul>
+	</nav>
+  </header>
+
+    <!-- 侧边栏 -->
+
+  <aside id="aside-menu">
+		<a href="#first" data-menuanchor="first" class="active"><b style="display: none;">首页</b></a>
+		<a href="#two" data-menuanchor="two"><b style="display: none;">关于我</b></a>
+		<a href="#three" data-menuanchor="three"><b style="display: none;">技能栈</b></a>
+		<a href="#four" data-menuanchor="four"><b style="display: none;">我的作品</b></a>
+		<a href="#five" data-menuanchor="five"><b style="display: none;">联系我</b></a>
+  </aside>
+  
+    <!-- 主页部分 -->
+
+<div id="dowebok">
+
+	<!-- home -->
+	<div class="section"  >
+		<div id="home" class="home_zoom"  >
+			<div id="home_content">
+			    <div id="home_head_content">
+				  <div id="home_head">
+					<img src="images/myphoto.jpg" alt="我的照片" id="my_photo">
+				  </div>
+			    </div>
+				<div id="home_info">
+					<p id="home_info1">如果你不给自己设限，世界上便没有限制你发挥的篱笆。</p>
+					<hr class="hr">
+					<div id="home_info_box">
+						 <p class="home_info2">我叫翁梁科</p>
+						 <p class="home_info2">22岁</p>
+						 <p class="home_info2">一名前端开发工程师</p>
+						 <p class="home_info2">viken0408@foxmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- 关于我 -->
+    <div class="section" >
+		<div id="about">
+			<div id="about_content">
+				<div class="title">
+					<h1>关于我</h1>
+					<div class="title_about">
+					   <hr  style="width: 150px;border-top:2px solid red;">
+					   <p style="color: red;font-weight: bold;">About me</p>
+				    </div>
+				</div>
+				<div id="about_list_content">
+					<div class="about_list" id="about_list1">
+						<div class="about_list_cn" id="about_cn_edu"></div><div class="list_p">学历<p>本科</p></div>
+					</div>
+                    <div class="about_list">
+                        <div class="about_list_cn" id="about_cn_age"></div><div class="list_p">年龄<p>22岁</p></div>
+                    </div>
+                    <div class="about_list">
+                        <div class="about_list_cn" id="about_cn_loc"></div><div class="list_p">坐标<p>杭州</p></div>
+                    </div>
+                    <div class="about_list">
+
+                        <div class="about_list_cn" id="about_cn_sta"></div><div class="list_p">状态<p>在读</p></div>
+                    </div>
+				</div>
+				<div id="about_info">
+					<p>
+					 我叫翁梁科，22岁，坐标杭州
+				    </p>
+				    <p>
+					 喜欢前端，它给我即写即得的感受，比起编程更为简单，更知性
+				    </p>
+				    <p>
+					 jQuery  bootstrap  vue react
+				    </p>
+				    <p>
+				     层出不穷的框架让人兴奋
+				    </p>
+				    <p>
+				     学习的路还很长，与您共勉 ^_^
+                    </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 专业技能     -->
+	<div class="section" >
+		<div id="skill">
+			<div id="skill_content">
+				<div class="title">
+					<h1 >技能栈</h1>
+					<div class="title_about">
+					   <hr  style="width: 150px;border-top:2px solid red;">
+					   <p style="color: red;font-weight: bold;">Skills</p>
+				    </div>
+				</div>
+				<div id="skill_info"></div>
+                <div id="skill_list">
+                    <div class="skill_list_content" id="skill_list1">
+                        <div class="skill_icon"><img src="images/html.png" alt=""></div>
+                        <div class="skill_name">HTML/HTML5</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int1">
+                        	<ul>
+                        		<li>深刻理解Web标准</li>
+                                <li>熟练运用html标签</li>
+                                <li>熟悉html5如canvas，localstorage等新特性</li>
+
+                        	</ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list2">
+                        <div class="skill_icon"><img src="images/css.png" alt=""></div>
+                        <div class="skill_name">CSS</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int2">
+                        	<ul>
+                        		<li>熟练运用css,熟悉常见的css浏览器兼容性处理</li>
+                                <li>熟悉css3特性，能用filter、animate等写图像动画的处理</li>
+                                <li>熟悉bootstrap框架及效果的实现</li>
+                        	</ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list3">
+                        <div class="skill_icon"><img src="images/js.png" alt=""></div>
+                        <div class="skill_name">Javascript</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int3">
+                        	<ul>
+                        		<li>熟练运用原生JS的编程</li>
+                                <li>熟悉jQuery</li>
+                                <li>注重JavaScript性能优化</li>
+                                <li>正在学习ES6</li>
+                        	</ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list4">
+                        <div class="skill_icon"><img src="images/bootstrap.png" alt=""></div>
+                        <div class="skill_name">Bootstrap</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int4">
+                        	<ul>
+                        		<li>熟练应用bootstrap写页面</li>
+                        		<li>了解栅格结构的优点</li>
+                        		<li>用bootstrap快速搭建过响应式页面</li>
+                        	</ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list5">
+                        <div class="skill_icon"><img src="images/vue.png" alt=""></div>
+                        <div class="skill_name">vue</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int5">
+                        	<ul>
+                        		<li>完成vue.js基础课程</li>
+                        		<li>了解双绑的背后原理和应用</li>
+                        		<li>使用过vue的一些封装组件如transition,但还未构建过整站</li>
+                        		<li>学习中ing......</li>
+                        	</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 我的作品 -->
+    <div class="section" >
+    	<div id="demo">
+        	<div id="demo_content">
+            	<div class="title_demo">
+                	<h1>我的作品</h1>
+                	<div class="title_about">
+					   <hr  style="width: 150px;border-top:2px solid red;">
+					   <p style="color: red;font-weight: bold;">Demo</p>
+				    </div>
+                </div>
+                <!-- carousel轮播 -->
+                <div id="myCarousel" class="carousel slide">
+                    <!-- 轮播指标 -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" id="cart1" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" id="cart2"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" id="cart3"></li>
+                        <li data-target="#myCarousel" data-slide-to="3" id="cart4"></li>
+                    </ol>
+                    <!-- 图片区 -->
+                    <div class="carousel-inner">
+                       <div class="item active" id="carp1">
+                           <img src="images/carousel-bg1.png" alt="">
+                       </div>
+                       <div class="item" id="carp2">
+                           <img src="images/carousel-bg2.png" alt="">
+                       </div>
+                       <div class="item" id="carp3">
+                           <img src="images/carousel-bg3.png" alt="">
+                       </div>
+                       <div class="item" id="carp4">
+                           <img src="images/carousel-bg4.png" alt="">
+                       </div>
+                    </div>
+                    <!-- 轮播（Carousel）导航 -->
+                    <a class="carousel-control left" href="#myCarousel" 
+                       data-slide="prev"><img src="images/toleft.png" alt=""></a>
+                    <a class="carousel-control right" href="#myCarousel" 
+                       data-slide="next"><img src="images/toright.png" alt=""></a>
+                </div>
+                <div id="demo_content_list">
+                    <div class="demo_box" >
+                        <div class="link">
+                        <div class="demo_box_hover">
+                                <span class="demo_box_hover_icon">
+                                    <a href="index.html" class="demo_box_link">
+                                        <img src="images/demo-link.png" alt="">
+                                    </a>
+                                </span>
+                        </div>
+                        </div>
+                        <div class="demo_box_img" id="car1">
+                            <a href="index.html"><img src="images/my-web1.png" alt=""></a></div>
+                        <p>我的个人主页</p>
+                    </div>
+                    <div class="demo_box">
+                        <div class="link">
+                        <div class="demo_box_hover">
+                                <span class="demo_box_hover_icon">
+                                    <a href="reader.html" class="demo_box_link">
+                                        <img src="images/demo-link.png" alt="">
+                                    </a>
+                                </span>
+                        </div>
+                        </div>
+                        <div class="demo_box_img" id="car2">
+                            <a href="reader.html"><img src="images/reader_box1.png" alt=""></a>
+                            
+                        </div>
+                        <p>webApp移动端阅读器</p> 
+                        <p>(最好用移动端模拟器打开)</p>                   
+                    </div>
+                    <div class="demo_box">
+                        <div class="link">
+                        <div class="demo_box_hover">
+                                <span class="demo_box_hover_icon">
+                                    <a href="zjutlog.html" class="demo_box_link">
+                                        <img src="images/demo-link.png" alt="">
+                                    </a>
+                                </span>
+                        </div>
+                        </div>
+                        <div class="demo_box_img"  id="car3"><a href="zjutlog.html"><img src="images/web1.png" alt=""></a></div>
+                        <p>浙工大 厨具官网</p>
+                        <p>(自适应网页)</p>                    
+                    </div>
+                    <div class="demo_box">
+                        <div class="link">
+                        <div class="demo_box_hover">
+                                <span class="demo_box_hover_icon">
+                                    <a href="interior.html" class="demo_box_link">
+                                        <img src="images/demo-link.png" alt="">
+                                    </a>
+                                </span>
+                        </div>
+                        </div>
+                        <div class="demo_box_img" id="car4"><a href="interior.html"><img src="images/web2.png" alt=""></a></div>
+                        <p>家居设计网站</p>
+                        <p>纯bootstrap建站</p>
+                    </div>
+				</div> 
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div class="section" >
+		<div id="contact">
+			<div id="contact_content">
+				<div class="title_contact">
+					<h1 >联系我</h1>
+					<div class="title_about">
+					   <hr  style="width: 150px;border-top:2px solid red;">
+					   <p style="color: red;font-weight: bold;">Contact Me</p>
+				    </div>
+				</div>
+                <div id="contact_head">
+					<div id="contact_head1">灵感 代码 梦想 未来</div>
+                    <div id="contact_head2">
+                    	<span>Inspiration</span>
+                        <span>Code</span>
+                        <span>Dream</span>
+                        <span>Future</span>
+                    </div>
+                </div>
+
+                <div id="contact_content_w">
+                	<p>学习是一个充实愉悦的过程</p>
+                    <p>喜欢尝试，期待新鲜事物</p>
+                    <p>喜欢前端的即写即得，贴近用户</p>
+                    <p>行路有良友，便是捷径</p>
+                    <p>带上我，一起看更大的世界</p>
+                </div>
+                <div id="contact_way">
+                	<a href="https://github.com/bf002967/"><img src="images/github.jpg" alt=""></a>
+                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/weixin.jpg" alt=""></a>
+                    <a href="mailto:viken0408@foxmail.com"><img src="images/email.png" alt=""></a>
+                    <a href="https://www.zhihu.com/people/Viken0408/"><img src="images/zhi.png" alt=""></a>
+                    <!-- 微信模态框 -->
+                    
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+
+<div class="modal fade Lmodal" id="myModal" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 430px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+ 					&times;
+ 				</button>
+                <h4 class="modal-title" id="myModalLabel">
+                    扫一扫，加个微信吧 ^_^
+                </h4>
+ 			</div>
+ 			<div class="modal-body">
+ 				<img src="images/my-weixin.png" alt="">
+ 			</div>
+ 		</div><!-- /.modal-content -->
+ 	</div><!-- /.modal -->
+ </div>
+
+
+
+</body>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cssParser.js"></script>
+<script src="js/modalEffects.js"></script>
+<script src="js/index.js"></script>
+</html>
